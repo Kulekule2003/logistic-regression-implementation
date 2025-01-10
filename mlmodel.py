@@ -97,5 +97,5 @@ w_out,b_out, history= gradient_descent(X_train,y_train,w_in,b_in,100000,0.001)
 
 #predicting by entering another input
 def test_algo(X,w_out,b_out):
-    f_wb = np.dot(X,w) + b
+    f_wb = sigmoid(np.dot(X,w) + b)
     return f_wb
