@@ -1,0 +1,7 @@
+linear regression model for prediction of survival of people on the titanic
+
+no sklearn used
+
+only numpy, pandas and math used
+
+implementation of sigmoid function, cost fuction, calculating gradient, and gradient function
